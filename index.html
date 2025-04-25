@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-BANK</title>
+
+    <link rel="stylesheet" href="style/header-style.css">
+    <link rel="stylesheet" href="style/slider-style.css">
+    <link rel="stylesheet" href="style/content-style.css">
+    <link rel="stylesheet" href="style/footer-style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="logo">
+                <a href="index.html"><img src="images/bnak-logo.JPG" alt="logo"></a>
+            </div>
+            <div class="contact-info">
+                <span><i class="ri-phone-fill"></i> JS Bank</span>
+                <span><i class="ri-mail-line"></i> contact@jsbank.com</span>
+                <span><i class="ri-time-line"></i> Mon-Fri: 9:00 AM - 5:00 PM</span>
+            </div>
+            <div class="login-button">
+                <button onclick="window.location.href='php/login.php'">Login</button>
+            </div>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="slider">
+        <div class="slider-content">
+            <div class="slide">
+                <img src="images/slide1.jpg" alt="Banking Services">
+                <h1>Welcome to JS-BANK</h1>
+                <p>Your Trusted Partner in Banking Solutions</p>
+            </div>
+            <div class="slide">
+                <img src="images/slide2.jpg" alt="Personal Banking">
+                <h1>Personal Banking</h1>
+                <p>Tailored solutions for your financial needs</p>
+            </div>
+            <div class="slide">
+                <img src="images/slide3.jpg" alt="Business Banking">
+                <h1>Business Banking</h1>
+                <p>Empowering your business growth</p>
+            </div>
+            <div class="slide">
+                <img src="images/slide4.jpg" alt="Digital Banking">
+                <h1>Digital Banking</h1>
+                <p>Bank anytime, anywhere with our secure platform</p>
+            </div>
+            <div class="slide">
+                <img src="images/slide5.jpg" alt="Investment Solutions">
+                <h1>Investment Solutions</h1>
+                <p>Grow your wealth with expert guidance</p>
+            </div>
+        </div>
+        
+        <div class="slider-nav">
+            <button class="prev">❮</button>
+            <button class="next">❯</button>
+        </div>
+        
+        <div class="slider-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Smart Banking. Simplified.</h1>
+            <p class="subheadline">Zero Balance Accounts | Instant Loans | 24x7 Digital Banking</p>
+            
+            <div class="cta-buttons">
+                <a href="php/open-account.php" class="btn primary">Open Account</a>
+                <a href="php/login.php" class="btn secondary">Net Banking Login</a>
+            </div>
+            
+            <p class="trust-note">RBI-Regulated | Trusted by 5 Million+ Indians</p>
+        </div>
+    </section>
+
+    <!-- Key Benefits Section -->
+    <section class="benefits">
+        <h2>Why JS Bank?</h2>
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <i class="ri-wallet-3-line"></i>
+                <h3>Zero Balance Savings</h3>
+                <p>No minimum balance for students and first-time account holders.</p>
+            </div>
+            <div class="benefit-card">
+                <i class="ri-bank-card-line"></i>
+                <h3>Instant Digital Loans</h3>
+                <p>Education, Personal, or Home Loans approved in 24 hours.</p>
+            </div>
+            <div class="benefit-card">
+                <i class="ri-smartphone-line"></i>
+                <h3>UPI-First Banking</h3>
+                <p>Send money, pay bills, and manage accounts on our award-winning app.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Action Cards -->
+    <section class="action-cards">
+        <div class="card">
+            <h3>Students</h3>
+            <p>Start with a free account + education loan discounts.</p>
+            <a href="php/open-account.php">Learn More →</a>
+        </div>
+        <div class="card">
+            <h3>Senior Citizens</h3>
+            <p>FDs with 8.2% returns and quarterly interest payouts.</p>
+            <a href="php/open-account.php">Invest Now →</a>
+        </div>
+    </section>
+
+    <!-- Growth Highlights -->
+    <section class="highlights">
+        <h2>Our Impact</h2>
+        <div class="stats-grid">
+            <div class="stat">
+                <i class="ri-bank-line"></i>
+                <h3>37 Years</h3>
+                <p>in Banking</p>
+            </div>
+            <div class="stat">
+                <i class="ri-community-line"></i>
+                <h3>500+</h3>
+                <p>Villages Served</p>
+            </div>
+            <div class="stat">
+                <i class="ri-smartphone-line"></i>
+                <h3>2M+</h3>
+                <p>App Downloads</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="contact">
+                <p>Contact: 1800-123-4567 | support@jsbank.co.in</p>
+            </div>
+            <div class="footer-links">
+                <a href="/about">About Us</a>
+                <a href="/services">Services</a>
+                <a href="/privacy">Privacy Policy</a>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="ri-facebook-fill"></i></a>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+                <a href="#"><i class="ri-linkedin-fill"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Chat Button -->
+    <div class="chat-button">
+        <button onclick="window.location.href='contact.html'"><i class="ri-customer-service-2-fill"></i> Chat with Us</button>
+    </div>
+
+    <script src="script/slider-script.js"></script>
+</body>
+</html>
